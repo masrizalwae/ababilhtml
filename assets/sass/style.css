@@ -441,7 +441,7 @@ p {
   right: -35px;
   top: 15px;
 }
-
+.btn-login,
 .btn-one,
 .btn-two,
 .btn-three,
@@ -469,6 +469,7 @@ p {
   border-radius: 50px;
   border: 1px solid var(--primary-color-1);
 }
+.btn-login i,
 .btn-one i,
 .btn-two i,
 .btn-three i,
@@ -484,6 +485,7 @@ p {
   font-size: 15px;
   transition: 0.2s;
 }
+.btn-login:hover,
 .btn-one:hover,
 .btn-two:hover,
 .btn-three:hover,
@@ -496,6 +498,7 @@ p {
   background-color: var(--primary-color-1);
   color: var(--text-white);
 }
+.btn-login:hover i,
 .btn-one:hover i,
 .btn-two:hover i,
 .btn-three:hover i,
@@ -509,6 +512,19 @@ p {
   color: var(--text-white);
 }
 
+.btn-login {
+  background: var(--primary-color-1);
+  color: var(--text-white);
+  text-transform: none;
+  border-radius: 50px;
+}
+.btn-login:hover {
+  background-color: transparent;
+  color: var(--text-heading-color);
+}
+.btn-login:hover i {
+  color: var(--text-heading-color);
+}
 .btn-two {
   background: var(--primary-color-1);
   color: var(--text-white);
